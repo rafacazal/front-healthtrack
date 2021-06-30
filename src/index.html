@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="global.css">
+  <title>HealthTrack</title>
+</head>
+
+<body>
+  <main class="container-fluid">
+    <nav class="navbar">
+      <section class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/img/logo-health.svg" id="logo">
+        </a>
+        <div>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="./quemsomos/index.html">Quem somos</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </nav>
+    <section class="home-title col-md-6">
+      <h4>Faça login abaixo para acessar seus dados de saúde</h4>
+    </section>
+    <section class="login-form col-md-4">
+      <form onsubmit="">
+        <div class="space-between">
+          <label for="exampleInputEmail1" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-1">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit"  id="access-button" class="btn btn-primary">Acessar</button>
+        <div class="mb-1">
+          <a class="signUp" href="./cadastro/index.html">Cadastrar-se</a>
+        </div>
+        <div class="mb-1">
+          <a class="signUp" id="password" href="">Esqueci minha senha</a>
+        </div>
+      </form>
+    </section>
+    <div class="home-undraw">
+      <img src="./assets/img/home-undraw.svg" width="600px">
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
